@@ -8,10 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIAlertViewDelegate {
+	var alertView = UIAlertView(title: "Test Alert", message: "Alert!", delegate: nil, cancelButtonTitle: "OK")
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		alertView.show()
 		// Do any additional setup after loading the view, typically from a nib.
 	}
 
@@ -19,7 +21,4 @@ class ViewController: UIViewController {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}
-
-
 }
-

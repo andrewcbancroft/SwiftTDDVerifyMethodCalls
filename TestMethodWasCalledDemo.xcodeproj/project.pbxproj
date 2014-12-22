@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F229C5E61A4524100043C671 /* TestMethodWasCalledDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C8B51A3FCEB50054DBE9 /* TestMethodWasCalledDemoTests.swift */; };
+		F229C5E81A4529EF0043C671 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C8A11A3FCEB40054DBE9 /* ViewController.swift */; };
 		F2C9C8A01A3FCEB40054DBE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C89F1A3FCEB40054DBE9 /* AppDelegate.swift */; };
 		F2C9C8A21A3FCEB40054DBE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C8A11A3FCEB40054DBE9 /* ViewController.swift */; };
 		F2C9C8A51A3FCEB40054DBE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C9C8A31A3FCEB40054DBE9 /* Main.storyboard */; };
 		F2C9C8A71A3FCEB40054DBE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C9C8A61A3FCEB40054DBE9 /* Images.xcassets */; };
 		F2C9C8AA1A3FCEB40054DBE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C9C8A81A3FCEB40054DBE9 /* LaunchScreen.xib */; };
-		F2C9C8B61A3FCEB50054DBE9 /* TestMethodWasCalledDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C9C8B51A3FCEB50054DBE9 /* TestMethodWasCalledDemoTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -221,7 +222,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C9C8B61A3FCEB50054DBE9 /* TestMethodWasCalledDemoTests.swift in Sources */,
+				F229C5E81A4529EF0043C671 /* ViewController.swift in Sources */,
+				F229C5E61A4524100043C671 /* TestMethodWasCalledDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +409,7 @@
 				F2C9C8BB1A3FCEB50054DBE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2C9C8BC1A3FCEB50054DBE9 /* Build configuration list for PBXNativeTarget "TestMethodWasCalledDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +418,7 @@
 				F2C9C8BE1A3FCEB50054DBE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
