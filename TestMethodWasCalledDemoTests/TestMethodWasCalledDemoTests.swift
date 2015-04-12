@@ -33,6 +33,6 @@ class TestMethodWasCalledDemoTests: XCTestCase {
 		vc.alertView = FakeAlertView()
 		
 		vc.viewDidLoad()
-		XCTAssertTrue((vc.alertView as FakeAlertView).showWasCalled, "Show was not called.")
+		XCTAssertTrue((vc.alertView as! FakeAlertView).showWasCalled, "Show was not called.")
 	}
 }
